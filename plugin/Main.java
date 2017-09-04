@@ -14,9 +14,10 @@ public class Main extends JavaPlugin{
 		getCommand("day").setExecutor(new Time());
 		getCommand("night").setExecutor(new Time());
 		getCommand("clean").setExecutor(new ChatManagement());
+		getCommand("spawner").setExecutor(new Spawner());
 	}
 	public void onDisable(){
-		System.out.println("Wy³¹czam...");
+		System.out.println("WyÂ³Â¹czam...");
 	}
 	boolean stat = false;
 }
